@@ -22,4 +22,5 @@ script:
   $AOS_UPLOAD_SERVICE_URL
 before_install:
 - openssl aes-256-cbc -K $encrypted_841ecf621a43_key -iv $encrypted_841ecf621a43_iv
-  -in meta_folder/private_key.pem.enc -out meta_folder/private_key.pem -d
+  -in meta_folder/private_key.pem.enc -out meta_folder/private_key.pem
+  -d
